@@ -1,0 +1,816 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+	background-color: #020100;	
+ 	/*width: 1200px;*/
+ 	margin: 0 auto;
+ 	padding: 0 50px;
+}
+
+#nav-t{
+	font-size: 30px;
+	font-family: 'Iceland', cursive;
+	color: white;
+}
+div>ul>li>a{
+	margin-left:10px;
+}
+
+
+
+#complogo{
+	height: 40px;
+	width: 40px;
+}
+
+.com-n{
+	font-family: 'Iceland', cursive;
+	font-size: 35px;
+}
+
+
+}
+
+.menu-icon{
+	height: 50px;
+	width: 50px;
+	/*border-radius: 50%;*/
+}
+
+ul>li>a{
+	text-align: center;
+}
+
+
+ul>li:hover > a{
+	color: black;
+	border-bottom: 1px solid #0cbaba;
+	
+
+}
+
+
+
+
+/*landing*/
+.land-back{
+	background:url(../images/shipme.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	padding: 0;
+}
+#jumbo-land1{
+	width: 100%;
+	color: white;
+	background-color: rgba(0,0,0,0.0);
+	padding-bottom:0;
+	
+}
+#land-subh{
+	height: 200px;
+}
+
+#land-g{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+}
+
+.btn a{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.comp{
+	font-family: 'Iceland', cursive;
+	font-size: 120px;
+	/*	margin-top: 200px;*/
+}
+
+.btn-back{
+	background-color: rgba(0,0,0,0.9);
+	margin-top: 20vh;
+	border: 1px solid lightgreen;
+
+}
+#l-button:hover{
+	color: lightblue;
+}
+
+div >.btn-back:hover {
+	
+	border: 1px solid lightblue;
+	color: light green;
+}
+
+div >.btn-back >a:hover {
+	transform: scale(1.1);
+}
+
+body{
+	background-color: #01baef;
+}
+
+/*
+#land-2b{
+	background:url(../images/giphy.gif);
+	height: 100vh;
+	width: 100vh;
+}
+*/
+/*home*/
+
+section{
+	
+	margin:0 auto;
+	background-color: white;
+}
+
+
+.home-container{
+	height: 100vh;
+	background-image: url(../images/home-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+#jumbo-land> div{
+	margin-top: 100px;r
+}
+
+#icon1{
+	height: 30px;
+	width: 30px;
+	float:left;
+
+}
+#jumbo-land{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh
+}
+
+#h-jum{
+	color: black;
+}
+.h-t1{
+	font-size: 50px;
+	font-family: 'Iceland', cursive;
+}
+.h-t2{
+	font-size: 70px;
+	font-family: 'Iceland', cursive;
+}
+#h-con-1{
+	margin: 0 auto;
+	padding: 50px;
+}
+/*.home-2sec{
+	padding: 0;
+}*/
+#check{
+	border:1px solid red;
+}
+.home-h{
+
+}
+
+.sec-pic1,
+.sec-pic2{
+	height: 65vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border: 4px solid white;
+}
+
+.sec-pic1{
+	background-image: url(../images/shipme.jpg);
+}
+
+.sec-pic2{
+	background-image: url(../images/gen.png);
+}
+
+.sec-end{
+	height: 50vh;
+	background-color: #0cbaba;
+	border:4px solid white;
+	margin:0 auto;
+}
+#bottom-pic{
+	height: 90%;
+	/*width: 100%;*/
+	margin:0 auto;
+}
+#h-end-b{
+	padding-top: 70px;
+}
+
+#h-e-button{
+
+}
+
+.h-p{
+	font-size: 20px;
+}
+
+
+
+.intro{
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*aboutpage*/
+
+.about-con-2{
+	padding-top: 70px;
+	/*width: 65%;*/
+	margin:0 auto;
+	margin-bottom: 2px;
+	padding-bottom: 0px;
+}
+#about-content{
+	margin-bottom: 110px;
+	padding: 0px;
+}
+
+.about-title1{
+	/*margin-top: 20px;*/
+	color:black;
+	font-family: 'Iceland', cursive;
+	font-size: 30px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#prof-pic{
+	margin-top: 55px;
+	height: 450px;
+	margin: 0 auto;
+
+}
+.ab-sec-cont{
+	padding: 0;
+	margin: 0 auto;
+}
+
+#pic-con{
+	margin-top: 10px;
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+.ab-con-d{
+	width: ;
+	margin: 0 auto;
+	padding: 15px;
+}
+#ab-con{
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top:20px; 
+}
+
+/*#top-left{
+	background-color: blue;
+	height: 100%;
+
+}*/
+
+.a-qoute{
+	font-family: 'Iceland', cursive;
+}
+
+
+/*topic*/
+
+
+.topic-con{
+	margin: 0 auto;
+	/*height: 100vh;*/
+}
+#top-sel{
+	padding-top: 90px;
+	margin: 0 auto;
+	background-color: white;
+	/*border:2px solid white;*/
+	margin-bottom: 5px; 
+	border-bottom: 2px solid #01baef;
+	padding-bottom: 40px;
+	/*padding-top: 0px;*/
+}
+#top-sel2{
+	padding-top: 40px;
+	margin: 0 auto;
+	background-color: white;
+	/*border:2px solid white;*/
+	margin-bottom: 5px;
+	border-bottom: 2px solid #01baef;
+	padding-bottom: 40px;
+
+	/*padding-top: 0px;*/
+
+}
+.top-sec{
+	margin-bottom: 2px solid #01baef;
+}
+
+#t-left-img{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+/*	filter: grayscale(200%);*/
+}
+#t-r-t{
+	height: 50vh;
+	background-color:;
+}
+#t-r-l{
+	height: 50vh;
+	background-color: red;
+}
+
+#t-r-r{
+	height: 50vh;
+	background-color: yellow;
+
+}
+#t-con-r{
+	margin: 0 auto;
+	padding-top: 20px;
+	
+}
+#t-con-r1{
+	margin-top: 50px;
+	margin: 0 auto;
+	height: 390px;
+}
+
+
+
+ #t-left{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#t-left {
+  position: relative;
+  
+  /*border: 2px solid black;*/
+  margin: 2%;
+  overflow: hidden;
+  width: 540px;
+}
+#t-left img {
+  max-width: 100%;
+  
+  -moz-transition: all 5s;
+  -webkit-transition: all 5s;
+  transition: all 13s;
+}
+#t-left:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+  	filter: grayscale(250%);
+}
+
+/*............*/
+#t-right{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#t-right {
+  position: relative;
+  
+  border: 2px solid black;
+  margin: 2%;
+  overflow: hidden;
+  width: 540px;
+}
+#t-right img {
+  max-width: 100%;
+  
+  -moz-transition: all 5s;
+  -webkit-transition: all 5s;
+  transition: all 13s;
+}
+#t-right:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+  	filter: grayscale(250%);
+}
+
+
+/*services*/
+
+
+
+.serv-bg{
+	margin: 0 auto;
+	height: 140vh;
+	padding-bottom: 10px;
+}
+.me-title{
+	padding-top: 100px;
+}
+.me-con{
+	margin: 0 auto;
+}
+
+.serv-con-pic1{
+	margin: 0 auto;
+	
+}
+.serv-con-pic2{
+	margin: 0 auto;
+	background-color: white;
+	position: absolute;	
+}
+
+#serv-engine1{
+	padding-top: 140px;
+	margin: 0 auto;
+	height: 550px;
+	width: 450px;
+}
+#serv-engine2{
+	padding-top: 100px;
+	margin: 0 auto;
+	height: 600px;
+	/*width: 450px;*/
+}
+#ME-pic{
+	display: none;
+}
+
+.serv-con-pic :hover + #ME-pic{
+	display:block;
+}
+
+
+.list-group{
+	text-align: center;
+	align-content: center;
+}
+
+.list-group :hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+
+
+
+.modal-content{
+
+	text-align: center;
+}
+
+
+/*====== tour*/
+
+#v-sec-top{
+	margin:0 auto;
+	padding-top: 65px;
+	padding-bottom: 20px;
+}
+#v-sec-bot{
+	margin:0 auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.v-sec1{
+	border-bottom: 2px solid #01baef;
+	margin-bottom: 50px;
+	border-radius: 1px;
+}
+.tour-vid{
+	width: 100%;
+	/*margin-top: 70px;*/
+	/*height: 100vh;*/
+	margin:0 auto;
+	border: 2px solid white;
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+iframe{
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.v-des{
+	padding: 10px;
+}
+
+
+
+
+
+
+/*=============systems*/
+
+
+
+
+.sys-con{
+	height: 100vh;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.sys-t{
+	margin: 0 auto;
+	height: 100px;
+}
+.sys-gal{
+	margin: 0 auto;
+}
+.check{
+	border:1px solid yellow;
+}
+
+
+#space{
+	height: 5vh;
+	/*background-color: white;*/
+}
+	
+
+
+
+.contact-section{
+	padding-top: 100px;
+	margin-bottom: 2px;
+	/*padding-left: 0;
+	padding-right: 0;
+	margin-left:0;
+	margin-right: 0;*/
+	/*background:url(../images/contact-bg.jpg);*/
+	width: 100%;
+	height: 100vh;
+
+}
+.container-fluid-serv{
+	/*background:url(../images/contact-bg.jpg);*/
+}
+
+#contact-cont{
+	margin-top: 100px;
+	height: 100%;
+	width: 100%;
+}
+
+#contact-foot-con{
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
+	background-color: rgba(49,49,49,1);
+	color: white;
+	height: 50px;
+	font-size: 15px;
+
+}
+
+
+
+
+/*========footer=======*/
+
+.f-back{
+	background-color: black;
+}
+
+
+#foot-container{
+	padding:0 50px;
+	background-color: rgba(49,49,49,1);
+	color: white;
+	height: 300px;
+	width: 100%;
+	font-size: 15px;
+	margin: 0 auto;
+}
+.foot-content{
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid yellow;
+}
+#foot-logo{
+	height: 20px;
+	width: 20px;
+}
+#foot-share{
+	margin: 0 auto;
+	border: 1px solid yellow;
+}
+
+#icon-share{
+	height: 40px;
+	width: 40px;
+/*	float: right;*/
+	
+}
+.d-mess{
+	padding-top: 5px;
+}
+
+#foot-icon{
+	height: 50px;
+	width: 50px;
+	float:right;
+	padding-top: 10px;
+}
+.disclaimer{
+	background-color: grey;
+}
+
+
+
+
+
+
+	/*==============================*/
+
+
+
+
+	/*===========================*/
+
+
+
+
+
+
+
+
+	/*end of css decalarations*/
+
+
+	/* custom media queries */
+
+
+
+
+
+
+
+	@media only screen and (min-width: 355px) and (max-width: 769px) {
+
+		.navbar{
+	
+ 	padding: 10px;
+}
+
+
+/*body{
+	padding: 0;
+}*/
+section{
+	width: 100%;
+	margin:0 auto;
+}
+
+.h-t1{
+	font-size: 30px;
+}
+#nav-t{
+	font-size: 20px;
+	font-family: 'Iceland', cursive;
+	color: white;
+	margin-right: 10px;
+}
+#bottom-pic{
+	height: 300px;
+	width: 230px;
+}
+
+.sec-end{
+	min-height: 100vh;
+}
+
+.about-con{
+	height: 150vh;
+}
+
+.about-title1{
+	height: 20px;
+	margin-bottom: 20px;
+}
+#pic-con{
+margin-top: 10px;
+margin: 0 auto;
+}
+#prof-pic{
+	height: 50vh;
+}
+
+.h-t2{
+	font-size: 35px;
+}
+.serv-bg{
+	height: 250vh;
+}
+#serv-engine1{
+	margin: 0 auto;
+	height: 400px;
+	width: 300px;
+}
+#serv-engine2{
+	padding-top: 20px;
+	margin: 0 auto;
+	height: 300px;
+	width: 200px;
+}
+.serv-con-pic{
+	margin: 0;
+	padding-top: 50px;
+}
+#ME-pic{
+	height: 400px;
+	width: 320px;
+}
+
+
+
+.about-con-2{
+	width: 80%;
+}
+
+}
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+	.navbar{
+
+		padding: 10px;
+	}
+	#pic-con{
+		margin:0 auto;
+	}
+	.serv-bg{
+		height: 100vh;
+	}
+	.serv-con-pic2{
+		padding-top: 150px;
+		width: 350px;
+	}
+	#ME-pic{
+		width: 350px;
+	}
+
+	.foot-mess{
+		margin:0;
+	}
+
+
+}
+
+	/*Desktop Styles*/
+
+	@media only screen and (min-width: 900px) {
+
+		section{
+			width: 1200px;
+		}
+
+		.serv-engine{
+			margin-left: 120px;
+		}
+		.navbar{
+ 		padding: 0 50px;
+}
+.about-title1{
+	font-size: 70px;
+}
+
+
+	}
