@@ -20,6 +20,7 @@ div>ul>li>a{
 }
 #nav-con{
 	height: 52px;
+	width: 100%;
 	background-color: #1A237E;
 }
 
@@ -688,6 +689,9 @@ div > a > li{
 .navbar-expand-lg{
  	padding: 0 10px;
 }
+#nav-con{
+	height: 0px;
+}
 #complogo{
 	height: 30px;
 	width: 30px;
@@ -779,6 +783,9 @@ margin: 0 auto;
 
 	padding:3px 20px;
 }
+#nav-con{
+	height: 0px;
+}
 #complogo{
 height: 45px;
 width: 45px;
@@ -833,4 +840,4 @@ section{
 }
 
 
-	}
+}
