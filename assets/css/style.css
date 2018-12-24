@@ -5,7 +5,9 @@
 }
 
 .navbar{
-	background-color: #020100;	
+	background-color: #E65100;
+	/*background-color: #1A237E;*/
+	/*background-color: #2196F3;	*/
  	/*width: 1200px;*/
  	margin: 0 auto;
  	padding: 0 50px;
@@ -115,7 +117,8 @@ div >.btn-back >a:hover {
 }
 
 body{
-	background-color: #01baef;
+	/*background-color: #01baef;*/
+	background-color: #424242;
 }
 
 /*
@@ -201,7 +204,7 @@ section{
 
 .sec-end{
 	height: 50vh;
-	background-color: #0cbaba;
+	background-color: #E0E0E0;
 	border:4px solid white;
 	margin:0 auto;
 }
