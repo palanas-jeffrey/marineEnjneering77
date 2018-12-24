@@ -7,7 +7,7 @@
 .navbar{
 	background-color: #1A237E;
  	margin: 0 auto;
- 	padding: 0 50px;
+ 	/*padding: 0 10px;*/
 }
 
 #nav-t{
@@ -18,6 +18,10 @@
 div>ul>li>a{
 	margin-left:10px;
 }
+#nav-con{
+	height: 52px;
+	background-color: #1A237E;
+}
 
 
 
@@ -25,14 +29,7 @@ div>ul>li>a{
 	height: 40px;
 	width: 40px;
 }
-/*
-.com-n{
-	font-family: 'Iceland', cursive;
-	font-size: 35px;
-}*/
 
-
-}
 
 .menu-icon{
 	height: 50px;
@@ -47,8 +44,7 @@ ul>li>a{
 
 ul>li:hover > a{
 	color: black;
-	border-bottom: 1px solid #0cbaba;
-	
+	border-bottom: 1px solid #0cbaba;	
 
 }
 
@@ -816,7 +812,9 @@ width: 45px;
 	@media only screen and (min-width: 900px) {
 
 
-
+.navbar{
+	width: 1200px;
+}
 section{
 	width: 1200px;
 }
@@ -825,7 +823,7 @@ section{
 	margin-left: 120px;
 }
 .navbar{
-	padding: 0 50px;	
+	padding: 0;	
 }
 .about-title1{
 	font-size: 70px;
