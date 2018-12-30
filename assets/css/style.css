@@ -6,6 +6,7 @@
 
 .navbar{
 	background-color: #1A237E;
+	/*background-color: #0cbaba;*/
  	margin: 0 auto;
  	/*padding: 0 10px;*/
 }
@@ -46,11 +47,52 @@ ul>li>a{
 ul>li:hover > a{
 	color: black;
 	border-bottom: 1px solid #0cbaba;	
+	border-bottom: 1px solid white;	
 
 }
 
 
 
+/*=====title*/
+
+
+.h-t1{
+	font-size: 30px;
+}
+
+.h-t3{
+	font-size: 80px;
+	font-family: 'Iceland', cursive;
+}
+.title-padding-bot{
+	padding-bottom: 40px;
+}
+
+.bottom-border{
+	border-bottom:2px solid  #1A237E;
+}
+/*===========button*/
+.btn-p{
+	background-color:  #1A237E;
+	color: white;
+	border:2px solid  #1A237E;
+}
+
+.proceed{
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.background-g{
+	min-height: 100vh;
+}
+/*.background-g2{
+		background-color: #E0E0E0;
+}*/
+
+
+.alink{
+	color: #1A237E;
+}
 
 /*landing*/
 .land-back{
@@ -90,21 +132,21 @@ ul>li:hover > a{
 	/*	margin-top: 200px;*/
 }
 
-.btn-back{
+/*.btn-back{
 	background-color: rgba(0,0,0,0.9);
 	margin-top: 20vh;
-	border: 1px solid lightgreen;
+	border: 1px solid lightgreen;*/
 
 }
 #l-button:hover{
 	color: lightblue;
 }
-
+/*
 div >.btn-back:hover {
 	
 	border: 1px solid lightblue;
 	color: light green;
-}
+}*/
 
 div >.btn-back >a:hover {
 	transform: scale(1.1);
@@ -163,7 +205,7 @@ section{
 	font-family: 'Iceland', cursive;
 }
 .h-t2{
-	font-size: 70px;
+	font-size: 40px;
 	font-family: 'Iceland', cursive;
 }
 #h-con-1{
@@ -199,8 +241,9 @@ section{
 .sec-end{
 	height: 50vh;
 	background-color: #E0E0E0;
-	border:4px solid white;
+	border:2px solid white;
 	margin:0 auto;
+	margin-bottom: 5px;
 }
 #bottom-pic{
 	height: 90%;
@@ -240,22 +283,15 @@ section{
 	padding-top: 70px;
 	/*width: 65%;*/
 	margin:0 auto;
-	margin-bottom: 2px;
-	padding-bottom: 0px;
+	margin-bottom: 5px;
+	/*padding-bottom: 0px;*/
 }
 #about-content{
 	margin-bottom: 110px;
 	padding: 0px;
 }
 
-.about-title1{
-	/*margin-top: 20px;*/
-	color:black;
-	font-family: 'Iceland', cursive;
-	font-size: 30px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
+/**/
 
 #prof-pic{
 	margin-top: 55px;
@@ -297,20 +333,31 @@ section{
 }
 
 
+
+
 /*topic*/
 
+.content-title{
+	border-top: 1px solid  #1A237E;
+	/*border-top: 1px solid  #424242;*/
+	border-bottom:  1px solid  #1A237E;
+	padding: 10px;
+	font-family: 'Iceland', cursive;
+	/*color: #1A237E;*/
+	margin: 20px 0px;
+}
 
 .topic-con{
 	margin: 0 auto;
 	/*height: 100vh;*/
 }
 #top-sel{
-	padding-top: 90px;
+	padding-top: 80px;
 	margin: 0 auto;
 	background-color: white;
 	/*border:2px solid white;*/
 	margin-bottom: 5px; 
-	border-bottom: 2px solid #01baef;
+	border-bottom: 2px solid #424242;
 	padding-bottom: 40px;
 	/*padding-top: 0px;*/
 }
@@ -320,7 +367,7 @@ section{
 	background-color: white;
 	/*border:2px solid white;*/
 	margin-bottom: 5px;
-	border-bottom: 2px solid #01baef;
+	border-bottom: 2px solid #424242;
 	padding-bottom: 40px;
 
 	/*padding-top: 0px;*/
@@ -359,6 +406,7 @@ section{
 	margin-top: 50px;
 	margin: 0 auto;
 	height: 390px;
+	/*padding: 10px;*/
 }
 
 
@@ -430,9 +478,11 @@ section{
 
 
 .serv-bg{
+	padding-top: 70px;
 	margin: 0 auto;
-	height: 140vh;
+	min-height: 140vh;
 	padding-bottom: 10px;
+	margin-bottom: 5px;
 }
 .me-title{
 	padding-top: 100px;
@@ -478,8 +528,9 @@ section{
 }
 
 .list-group :hover{
-	filter: grayscale(100%);
-	transform: scale(1.1);
+	/*filter: grayscale(100%);*/
+	/*transform: scale(1.1);*/
+	border-color: 4px  solid  #1A237E;
 }
 
 
@@ -504,7 +555,7 @@ section{
 	padding-bottom: 50px;
 }
 .v-sec1{
-	border-bottom: 2px solid #01baef;
+	border-bottom: 5px solid #424242;
 	margin-bottom: 50px;
 	border-radius: 1px;
 }
@@ -513,7 +564,7 @@ section{
 	/*margin-top: 70px;*/
 	/*height: 100vh;*/
 	margin:0 auto;
-	border: 2px solid white;
+	border: 1px solid white;
 	background-color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -558,30 +609,41 @@ iframe{
 	height: 5vh;
 	/*background-color: white;*/
 }
-	
+/*	
 
-
+============contact*/
 
 .contact-section{
 	padding-top: 100px;
-	margin-bottom: 2px;
-	/*padding-left: 0;
-	padding-right: 0;
-	margin-left:0;
-	margin-right: 0;*/
-	/*background:url(../images/contact-bg.jpg);*/
-	width: 100%;
-	height: 100vh;
+	margin: 0 auto;
+	min-height: 100vh;
+	margin-bottom: 5px;
 
 }
+
+.page-title-con{
+	margin: 0 auto;
+}
+
+
+.margin-0{
+	margin: 0 auto;
+}
+.padding-0{
+	padding: 0;
+}
+
+.contact-con-box{
+	height: 70vh;
+}
+
 .container-fluid-serv{
 	/*background:url(../images/contact-bg.jpg);*/
 }
 
-#contact-cont{
-	margin-top: 100px;
-	height: 100%;
-	width: 100%;
+.contact-content{
+	padding:20px 0;
+	
 }
 
 #contact-foot-con{
@@ -625,7 +687,7 @@ div > a > li{
 	padding: 20px 50px;
 	background-color: rgba(49,49,49,1);
 	color: white;
-	height: 55vh;
+	min-height: 55vh;
 	width: 100%;
 	font-size: 15px;
 	margin: 0 auto;
@@ -707,17 +769,11 @@ div > a > li{
 	color: white;
 }
 
-.comp{
-	font-size: 40px;
-}
 section{
 	width: 100%;
 	margin:0 auto;
 }
 
-.h-t1{
-	font-size: 30px;
-}
 
 #bottom-pic{
 	height: 300px;
@@ -729,7 +785,7 @@ section{
 }
 
 .about-con{
-	height: 150vh;
+	min-height: 150vh;
 }
 
 .about-title1{
@@ -745,22 +801,31 @@ margin: 0 auto;
 }
 
 .h-t2{
-	font-size: 35px;
+	font-size: 30px;
+}
+.h-t3{
+	font-size: 50px;
+}
+#t-con-r1{
+	min-height: 400px;
+	padding: 10px;
 }
 .serv-bg{
-	height: 250vh;
+	min-height: 100vh;
+
 }
-#serv-engine1{
+
+/*#serv-engine1{
 	margin: 0 auto;
 	height: 400px;
 	width: 300px;
-}
-#serv-engine2{
+}*/
+/*#serv-engine2{
 	padding-top: 20px;
 	margin: 0 auto;
 	height: 300px;
 	width: 200px;
-}
+}*/
 .serv-con-pic{
 	margin: 0;
 	padding-top: 50px;
