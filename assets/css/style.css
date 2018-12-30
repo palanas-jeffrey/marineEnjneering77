@@ -76,6 +76,13 @@ ul>li:hover > a{
 	background-color:  #1A237E;
 	color: white;
 	border:2px solid  #1A237E;
+	height: 50px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.btn-p:hover{
+	background-color: white;
+	color: black;
 }
 
 .proceed{
@@ -201,7 +208,7 @@ section{
 	color: black;
 }
 .h-t1{
-	font-size: 50px;
+	font-size: 40px;
 	font-family: 'Iceland', cursive;
 }
 .h-t2{
@@ -319,7 +326,7 @@ section{
 #ab-con{
 	margin: 0 auto;
 	margin-bottom: 50px;
-	margin-top:20px; 
+/*	margin-top:20px; */
 }
 
 /*#top-left{
@@ -773,7 +780,9 @@ section{
 	width: 100%;
 	margin:0 auto;
 }
-
+.btn-p{
+	height: 35px;
+}
 
 #bottom-pic{
 	height: 300px;
@@ -835,10 +844,19 @@ margin: 0 auto;
 	width: 320px;
 }
 
-
+.proceed{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 
 .about-con-2{
 	width: 80%;
+}
+.list-group-item{
+	height: 20px;
+	padding: 0;
+	margin: 0;
+
 }
 
 }
