@@ -69,13 +69,13 @@ ul>li:hover > a{
 }
 
 .bottom-border{
-	border-bottom:2px solid  #1A237E;
+	border-bottom:1px solid  #1A237E;
 }
 /*===========button*/
 .btn-p{
 	background-color:  #1A237E;
 	color: white;
-	border:2px solid  #1A237E;
+	border:1px solid  #1A237E;
 	height: 50px;
 	border-radius: 5px;
 	margin-top: 20px;
@@ -534,12 +534,18 @@ section{
 	align-content: center;
 }
 
-.list-group :hover{
-	/*filter: grayscale(100%);*/
-	/*transform: scale(1.1);*/
-	border-color: 4px  solid  #1A237E;
+.list-group-item:hover{
+
+	background-color: white;
+	
 }
 
+.me-select{
+	background-color: #1A237E;
+	color: white;
+	border: 1px  solid  #1A237E;
+
+}
 
 
 
@@ -623,9 +629,8 @@ iframe{
 .contact-section{
 	padding-top: 100px;
 	margin: 0 auto;
-	min-height: 100vh;
+	min-height: 125vh;
 	margin-bottom: 5px;
-
 }
 
 .page-title-con{
@@ -641,7 +646,7 @@ iframe{
 }
 
 .contact-con-box{
-	height: 70vh;
+	height: 90vh;
 }
 
 .container-fluid-serv{
@@ -781,7 +786,7 @@ section{
 	margin:0 auto;
 }
 .btn-p{
-	height: 35px;
+	height: 45px;
 }
 
 #bottom-pic{
@@ -824,20 +829,22 @@ margin: 0 auto;
 
 }
 
-/*#serv-engine1{
+#serv-engine1{
 	margin: 0 auto;
 	height: 400px;
 	width: 300px;
-}*/
-/*#serv-engine2{
+}
+#serv-engine2{
 	padding-top: 20px;
 	margin: 0 auto;
+	margin-top: 50px;
 	height: 300px;
 	width: 200px;
-}*/
+}
 .serv-con-pic{
 	margin: 0;
 	padding-top: 50px;
+	padding-bottom: 20px;
 }
 #ME-pic{
 	height: 400px;
@@ -852,18 +859,20 @@ margin: 0 auto;
 .about-con-2{
 	width: 80%;
 }
-.list-group-item{
-	height: 20px;
+/*.me-select{
+	height: 30px;
 	padding: 0;
-	margin: 0;
+}*/
 
+.contact-content{
+	height: 170vh;
 }
 
 }
 
 /*Tablet Styles*/
 
-@media only screen and (min-width: 500px) and (max-width: 768px) {
+@media only screen and (min-width: 500px) and (max-width: 780px) {
 .navbar{
 
 	padding:3px 20px;
@@ -877,6 +886,12 @@ width: 45px;
 }
 .navbar-toggler-icon{
 	height: 45px;
+}
+.sec-end{
+	height: 50vh;
+}
+#home-in-tablet{
+	height: 50vh;
 }
 	#pic-con{
 		margin:0 auto;
@@ -895,7 +910,9 @@ width: 45px;
 	.foot-mess{
 		margin:0;
 	}
-
+	.contact-content{
+	height: 170vh;
+}
 
 }
 
@@ -911,9 +928,6 @@ section{
 	width: 1200px;
 }
 
-.serv-engine{
-	margin-left: 120px;
-}
 .navbar{
 	padding: 0;	
 }
