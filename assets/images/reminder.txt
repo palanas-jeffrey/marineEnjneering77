@@ -1,9 +1,7 @@
 
 
 borders
-pading in mobile
-fonts
-
+padding in tablet
 systems
-
-contact basag pa
+dropdown in menu
+animations
