@@ -593,7 +593,8 @@ iframe{
 	margin: 0 auto;
 }
 .v-des{
-	padding: 10px;
+	margin: 0 auto;
+	padding: 25px;
 }
 
 
@@ -701,7 +702,7 @@ div > a > li{
 	list-style-type: none;
 }
 #foot-container{
-	padding: 20px 50px;
+	padding: 20px 15px;
 	background-color: rgba(49,49,49,1);
 	color: white;
 	min-height: 55vh;
@@ -792,6 +793,10 @@ section{
 }
 .btn-p{
 	height: 45px;
+}
+#h-con-1{
+	margin: 0 auto;
+	padding: 25px;
 }
 
 #bottom-pic{
