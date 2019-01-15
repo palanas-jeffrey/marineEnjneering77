@@ -682,7 +682,10 @@ iframe{
 /*========footer=======*/
 
 
-
+h6,
+h5{
+	font-family: 'Righteous', cursive;
+}
 .check{
 	border:1px solid red;
 }
