@@ -652,11 +652,11 @@ iframe{
 }
 
 .contact-con-box{
-	height: 90vh;
+	min-height: 90vh;
 }
 
 .container-fluid-serv{
-	/*background:url(../images/contact-bg.jpg);*/
+	height: 100vh
 }
 
 .contact-content{
@@ -886,6 +886,17 @@ margin: 0 auto;
 
 .contact-content{
 	height: 170vh;
+}
+.contact-section{
+
+	min-height: 150vh;
+	
+}
+.contact-con-box{
+	height: 90vh;
+}
+.container-fluid-serv{
+	min-height: 215vh;
 }
 
 }
