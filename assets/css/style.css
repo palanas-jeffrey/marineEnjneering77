@@ -57,7 +57,8 @@ ul>li:hover > a{
 
 
 .h-t1{
-	font-size: 30px;
+	font-size: 50px;
+	font-family: 'Righteous', cursive;
 }
 
 .h-t3{
@@ -207,12 +208,9 @@ section{
 #h-jum{
 	color: black;
 }
-.h-t1{
-	font-size: 40px;
-	font-family: 'Iceland', cursive;
-}
+
 .h-t2{
-	font-size: 40px;
+	font-size: 70px;
 	font-family: 'Iceland', cursive;
 }
 #h-con-1{
@@ -345,12 +343,19 @@ section{
 /*topic*/
 
 .content-title{
+	font-size: 40px;
 	border-top: 1px solid  #1A237E;
-	/*border-top: 1px solid  #424242;*/
 	border-bottom:  1px solid  #1A237E;
 	padding: 10px;
-	font-family: 'Iceland', cursive;
-	/*color: #1A237E;*/
+	font-family: 'Righteous', cursive;
+	margin: 20px 0px;
+}
+.content-title-top{
+	font-size: 30px;
+	border-top: 1px solid  #1A237E;
+	border-bottom:  1px solid  #1A237E;
+	padding: 10px;
+	font-family: 'Righteous', cursive;
 	margin: 20px 0px;
 }
 
@@ -813,12 +818,22 @@ margin: 0 auto;
 #prof-pic{
 	height: 50vh;
 }
-
+.h-t1{
+	font-size: 30px;
+}
 .h-t2{
 	font-size: 30px;
 }
 .h-t3{
 	font-size: 50px;
+}
+
+
+.content-title{
+	font-size: 25px;
+}
+.content-title-top{
+	font-size: 25px;
 }
 #t-con-r1{
 	min-height: 400px;
