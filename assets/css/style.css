@@ -102,6 +102,10 @@ ul>li:hover > a{
 	color: #1A237E;
 }
 
+a:link{
+	text-decoration: none;
+}
+
 /*landing*/
 .land-back{
 	background:url(../images/shipme.jpg);
@@ -699,6 +703,7 @@ h5{
 #f-padd{
 	margin: 10px;
 }
+
 .foot-bm{
 	margin: 0 auto;
 }

@@ -5,3 +5,4 @@ padding in tablet
 systems
 dropdown in menu
 animations
+change to cdn
