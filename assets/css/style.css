@@ -928,11 +928,11 @@ width: 45px;
 	height: 45px;
 }
 .sec-end{
-	height: 50vh;
+	height: 20vh;
 }
-#home-in-tablet{
+/*#home-in-tablet{
 	height: 50vh;
-}
+}*/
 	#pic-con{
 		margin:0 auto;
 	}
