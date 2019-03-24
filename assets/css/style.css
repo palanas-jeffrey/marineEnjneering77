@@ -978,5 +978,10 @@ section{
 	width: 1200px;
 }
 
+#bottom-pic{
+	height: 288px;
+	width: 250px;
+	margin:0 auto;
+}
 
 }
